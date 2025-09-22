@@ -8,12 +8,121 @@
 </head>
 
 <body>
-    <h1>My information</h1>
-    <p>I am a IT graduate, enhacing my knowledge with full-stack learning and projects.</p>
-    <img class="fit-picture" src="E:\Github Projects\Full-stack\Day1\Guide_to_Full_Stack_Development_000eb0b2d0.jpg"
+    <!--My information-->
+    <header>
+        <h1>My information</h1>
+        <p>I am a IT graduate, enhacing my knowledge with full-stack learning and projects.</p>
+    </header>
+    
+    <!-- Image and favorite link -->
+    <section>
+        <img class="fit-picture" src="E:\Github Projects\Full-stack\Day1\Guide_to_Full_Stack_Development_000eb0b2d0.jpg"
         alt="Full stack development and its required attributes." />
-    <br>
-    <a href="https://www.google.com">Google</a>
+        <br>
+        <a href="https://www.google.com">Google</a>
+    </section>
+    <hr>
+
+    <!-- Ordered and unordered lists -->
+    <section>
+        <ol>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Machine Learning</li>
+            <li>Arificial intelligence integrated with robotics</li>
+        </ol>
+        <ul>
+            <li>Sketching and Painting</li>
+            <li>Watching Anime and Movies</li>
+            <li>Surfing through internet</li>
+            <li>Reading</li>
+            <li>Crafting</li>
+        </ul>
+    </section>
+    <hr>
+
+    <!-- Table -->
+    <section>
+        <table>
+            <caption>
+                Projects and their status
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Projects</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Full-stack project</td>
+                    <td>Ongoing</td>
+                </tr>
+                <tr>
+                    <td>Weather data Pipeline</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Selenium</td>
+                    <td>Completed</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <hr>
+
+    <!-- Form -->
+    <section>
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+                <label for="name">Enter your name</label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-example">
+                <label for="email">Enter your email</label>
+                <input type="text" name="email" id="email" required />
+            </div>
+            <div class="form-example">
+                <label for="skills">Select the skills you want to learn</label>
+                <select name="skills" id="skills">
+                    <option value="C and C++">C and C++</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="AI">AI</option>
+                </select>
+            </div>
+            <div class="form-example">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </section>
+    <hr>
+
+    <!-- Nav -->
+    <section>
+        <nav class="Skills">
+            <ul>
+                <li class="Skills"><a href="#">About</a></li>
+                <li class="Skills"><a href="#">Contact</a></li>
+                <li class="Skills"><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </section>
+    <hr>
+
+    <!-- Embedded youtube video and audio -->
+    <section>
+        <iframe width="720" height="410" src="https://www.youtube.com/embed/nu_pCVPKzTk" frameborder="0" allowfullscreen></iframe>
+        <br>
+        <audio controls><source src="https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3" type="audio/mpeg">Audio</audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MyCompany. All rights reserved.</p>
+    </footer>
+    
 </body>
 
 </html>
