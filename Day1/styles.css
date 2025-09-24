@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #007acc;
+  margin-bottom: 20px;
+}
+
+header p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.fit-picture {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #e93a77;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005f99;
+}
+
+ol, ul {
+  margin: 20px 0;
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;       
+  width: 100%;
+  border: 2px solid #333;          
+}
+
+caption {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #333;          
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007acc;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dad8d8;
+}
+
+.form-example {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #005f99;
+}
+
+/* Navigation Menu */
+nav.Skills ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+}
+
+nav.Skills li a {
+  color: #007acc;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav.Skills li a:hover {
+  color: #005f99;
+}
+
+iframe {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  max-width: 720px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #007acc;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+}
