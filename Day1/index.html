@@ -9,31 +9,52 @@
 </head>
 
 <body>
+
+    <!-- Nav -->
+    <section>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="main"><a href="#">My Page</a></div>
+                <ul>
+                    <li class="Skills"><a href="#">About</a></li>
+                    <li class="Skills"><a href="#">Contact</a></li>
+                    <li class="Skills"><a href="#">Feedback</a></li>
+                    <button><a href="#">SignUp</a></button>
+                    <button><a href="#">SignIn</a></button>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <hr>
+
     <!--My information-->
     <header>
-        <h1>My information</h1>
+        <h1>My Information</h1>
         <p>I am a IT graduate, enhacing my knowledge with full-stack learning and projects. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, a. Id aspernatur fugit laudantium tempore fugiat veritatis neque rem. Debitis quo mollitia aperiam repellat adipisci asperiores sequi a similique! Exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, veritatis id sint aspernatur earum repellat. Ipsa illo mollitia beatae cum, et atque asperiores, voluptatibus vel cumque sequi, saepe illum maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor nam, sapiente praesentium deleniti repudiandae ipsam autem at necessitatibus odio suscipit natus consequatur cumque non laudantium ratione eligendi recusandae neque?</p>
     </header>
     
     <!-- Image and favorite link -->
-    <section>
+    <section class="pic-and-google">
+        <a href="https://www.google.com">Google</a>
         <img class="fit-picture" src="E:\Github Projects\Full-stack\Day1\Guide_to_Full_Stack_Development_000eb0b2d0.jpg"
         alt="Full stack development and its required attributes." />
-        <br>
-        <a href="https://www.google.com">Google</a>
     </section>
     <hr>
 
     <!-- Ordered and unordered lists -->
-    <section>
+    <section class="ul-ol">
+        
         <ol>
+            <p class="bold">Skills</p>
             <li>C/C++</li>
             <li>Python</li>
             <li>Java</li>
             <li>Machine Learning</li>
             <li>Arificial intelligence integrated with robotics</li>
         </ol>
+        
         <ul>
+            <p class="bold">Hobbies</p>
             <li>Sketching and Painting</li>
             <li>Watching Anime and Movies</li>
             <li>Surfing through internet</li>
@@ -46,9 +67,7 @@
     <!-- Table -->
     <section>
         <table>
-            <caption>
-                Projects and their status
-            </caption>
+            
             <thead>
                 <tr>
                     <th scope="col">Projects</th>
@@ -69,6 +88,9 @@
                     <td>Completed</td>
                 </tr>
             </tbody>
+            <caption>
+                Projects and their status
+            </caption>
 
         </table>
     </section>
@@ -87,7 +109,8 @@
             </div>
             <div class="form-example">
                 <label for="skills">Select the skills you want to learn</label>
-                <select name="skills" id="skills">
+                <select name="skills" id="skills" value>
+                    <option value="" disabled selected>Please choose...</option>
                     <option value="C and C++">C and C++</option>
                     <option value="Python">Python</option>
                     <option value="Java">Java</option>
@@ -101,20 +124,8 @@
     </section>
     <hr>
 
-    <!-- Nav -->
-    <section>
-        <nav class="Skills">
-            <ul>
-                <li class="Skills"><a href="#">About</a></li>
-                <li class="Skills"><a href="#">Contact</a></li>
-                <li class="Skills"><a href="#">Feedback</a></li>
-            </ul>
-        </nav>
-    </section>
-    <hr>
-
     <!-- Embedded youtube video and audio -->
-    <section>
+    <section class="vid-aud">
         <iframe width="720" height="410" src="https://www.youtube.com/embed/nu_pCVPKzTk" frameborder="0" allowfullscreen></iframe>
         <br>
         <audio controls><source src="https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3" type="audio/mpeg">Audio</audio>
